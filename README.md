@@ -53,7 +53,7 @@ terrestrial), on the Deployment Map tab. The map is subsettable by years
 of deployment and habitat.
 
 ``` r
-micrometViz()
+MSHMicroMetR::micrometViz()
 ```
 
 <p align="center">

@@ -45,7 +45,7 @@ Financial support for this work was provided by the Pacific Northwest Research S
 Visualizing data from `MSHMicroMetR` is easily done using the `micrometViz` R shiny app. The app includes a leaflet map of all HOBO deployments, color coded by habitat (blue = aquatic and orange = terrestrial), on the Deployment Map tab. The map is subsettable by years of deployment and habitat.
 
 ```{r, eval = FALSE}
-micrometViz()
+MSHMicroMetR::micrometViz()
 ```
 
 <p align="center">
