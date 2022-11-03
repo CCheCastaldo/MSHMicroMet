@@ -3,7 +3,7 @@ README
 
 ### Mount St. Helens Micrometeorology data for R
 
-<a href="http://www.penguinmap.com"><img align="right" src="MSHMicroMetR/logo/mapppd_logo.svg" width="240" style="border:solid #FFFFFF;"/></a>
+<img align="right" src="MSHMicroMetR/logo/MSHMicroMetR_logo.png" width="300" />
 
 `MSHMicroMetR` is an R package for accessing and visualizing microscale
 temperature and relative humidity measurements collected between
