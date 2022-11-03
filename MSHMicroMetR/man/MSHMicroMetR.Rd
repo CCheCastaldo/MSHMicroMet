@@ -5,7 +5,7 @@
 \alias{MSHMicroMetR}
 \title{The 'MSHMicroMetR' package}
 \description{
-`MSHMicroMetR` is an R package used to access and visualize microscale temperature and relative humidity measurements collected between 1997-2022 by the US Forest Service Pacific Northwest Research Station throughout the Mount St. Helens post 1980 eruption landscape.
+`MSHMicroMetR` is an R package used to access and visualize microscale temperature and relative humidity measurements collected between 1997-2022 by the US Forest Service Pacific Northwest Research Station throughout the Mount St. Helens post-1980 eruption landscape.
 }
 \section{Details}{
 

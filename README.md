@@ -5,10 +5,10 @@ README
 
 <a href="http://www.penguinmap.com"><img align="right" src="MSHMicroMetR/logo/mapppd_logo.svg" width="240" style="border:solid #FFFFFF;"/></a>
 
-`MSHMicroMetR` is an R package used to access and visualize microscale
+`MSHMicroMetR` is an R package for accessing and visualizing microscale
 temperature and relative humidity measurements collected between
 1997-2022 by the US Forest Service Pacific Northwest Research Station
-throughout the post-1980 Mount St. Helens eruption landscape.
+throughout the Mount St. Helens post-1980 eruption landscape.
 
 The package contains 2 data frames and 1 R Shiny app:
 
@@ -32,7 +32,7 @@ remotes::install_github("CCheCastaldo/MSHMicroMet", subdir = "MSHMicroMetR")
 
 ### Supporting Information for these data
 
-Link to Metadata_S1 file
+Link to Metadata_S1 file from Data Paper
 
 ### How to cite these data
 
@@ -46,10 +46,15 @@ Foundation, Grant Numbers DEB-1257360 and DEB-0614538.
 
 ### R shiny viewer
 
-Visualizing data from `MSHMicroMetR` is easily done using `micrometViz`,
-which includes a leaflet map of HOBO deployments, color coded by habitat
-(blue = aquatic and orange = terrestrial), on the Deployment Map tab
-that is subsettable by years of deployment and habitat.
+Visualizing data from `MSHMicroMetR` is easily done using the
+`micrometViz` R shiny app. The app includes a leaflet map of all HOBO
+deployments, color coded by habitat (blue = aquatic and orange =
+terrestrial), on the Deployment Map tab. The map is subsettable by years
+of deployment and habitat.
+
+``` r
+micrometViz()
+```
 
 <p align="center">
 <img src="MSHMicroMetR/logo/leaflet_map.png" width="100%" style="display: block; margin: auto;" />
@@ -62,9 +67,9 @@ Deployment Table tab.
 <img src="MSHMicroMetR/logo/data_table.png" width="100%" style="display: block; margin: auto;" />
 </p>
 
-By selecting an individual deployment from the table you can visualize
-the timer series of temperature and relative humidy (if applicable) on
-the Time Series Plots tab.
+You can visualize the time series of temperature and relative humidity
+for any individual deployment by selecting it on the table and then
+clicking on the Time Series tab.
 
 <p align="center">
 <img src="MSHMicroMetR/logo/dygraph.png" width="100%" style="display: block; margin: auto;" />
