@@ -1,13 +1,11 @@
 ---
-title: "README"
+title: "Mount St. Helens Micrometeorology data for R"
 output: github_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
-### Mount St. Helens Micrometeorology data for R
 
 <img align="right" src="MSHMicroMetR/logo/MSHMicroMetR_logo.png" width="300" />
 

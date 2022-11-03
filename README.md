@@ -1,7 +1,5 @@
-README
+Mount St. Helens Micrometeorology data for R
 ================
-
-### Mount St. Helens Micrometeorology data for R
 
 <img align="right" src="MSHMicroMetR/logo/MSHMicroMetR_logo.png" width="300" />
 
