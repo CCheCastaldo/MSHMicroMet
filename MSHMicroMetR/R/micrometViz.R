@@ -24,7 +24,7 @@ ui <- shinydashboard::dashboardPage(
       shinydashboard::sidebarMenu(
         shinydashboard::menuItem("Deployment Map", tabName = "deployment_map", icon = shiny::icon("map")),
         shinydashboard::menuItem("Deployment Table", tabName = "header_table", icon = shiny::icon("table")),
-        shinydashboard::menuItem("Time Series Plots", tabName = "time_series_plots", icon = shiny::icon("chart-line")),
+        shinydashboard::menuItem("Time Series", tabName = "time_series", icon = shiny::icon("chart-line")),
         shiny::sliderInput("years_deployed", "Years Deployed", min = 1997, max = 2022, value = c(1997, 2022), step = 1, sep = ""),
         shiny::checkboxInput("terrestrial", "Terrestrial HOBO deployments", value = TRUE),
         shiny::checkboxInput("aquatic", "Aquatic HOBO deployments", value = TRUE)
@@ -45,7 +45,7 @@ ui <- shinydashboard::dashboardPage(
 
 
                               ),
-      shinydashboard::tabItem(tabName = "time_series_plots",
+      shinydashboard::tabItem(tabName = "time_series",
                               shiny::fluidPage(
                                 shiny::fluidRow(dygraphs::dygraphOutput("dygraph_temp")),
                                 shiny::fluidRow(dygraphs::dygraphOutput("dygraph_RH"))))
