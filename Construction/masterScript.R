@@ -72,5 +72,7 @@ print(skim(MSHMicrometData))
 #------------------------------------------------------------------------------------------
 save(MSHMicrometHeader, file = "MSHMicroMet/data/MSHMicrometHeader.rda")
 save(MSHMicrometData, file = "MSHMicroMet/data/MSHMicrometData.rda")
-write.csv(micromet_header_df, file = "Library/micromet_header.csv", row.names = FALSE, na = "")
-write.csv(micromet_data_df, file = "Library/micromet_data.csv", row.names = FALSE, na = "")
+write.csv(MSHMicrometHeader, file = "Library/MSHMicrometHeader.csv", row.names = FALSE, na = "")
+write.csv(MSHMicrometData, file = gzfile("Library/MSHMicrometData.csv.gz"), row.names = FALSE, na = "")
+
+
