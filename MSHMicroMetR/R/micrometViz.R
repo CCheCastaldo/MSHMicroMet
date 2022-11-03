@@ -1,4 +1,4 @@
-#' R shiny app for visualizing MSHMIcroMetR package data
+#' R shiny app for visualizing MSHMicroMetR package data
 #'
 #' R shiny app for visualizing HOBO deployment location, metadata, and time series of temperature and relative humidity
 #'

@@ -15,7 +15,7 @@ The package contains 2 data frames and 1 R Shiny app:
 
 `MSHMicrometData` - data frame containing microscale temperature and relative humidity measurements from HOBO deployments on Mount St. Helens
 
-`micrometViz` - R shiny app for visualizing HOBO deployment location, metadata, and time series of temperature and relative humidity
+`microMetViz` - R shiny app for visualizing HOBO deployment location, metadata, and time series of temperature and relative humidity
 }
 
 \section{Author(s)}{

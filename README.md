@@ -15,7 +15,7 @@ The package contains 2 data frames and 1 R Shiny app:
 -   `MSHMicrometData` - data frame containing microscale temperature and
     relative humidity measurements from HOBO deployments on Mount
     St. Helens
--   `micrometViz` - R shiny app for visualizing HOBO deployment
+-   `microMetViz` - R shiny app for visualizing HOBO deployment
     location, metadata, and time series of temperature and relative
     humidity
 
@@ -45,13 +45,13 @@ Foundation, Grant Numbers DEB-1257360 and DEB-0614538.
 ### R shiny viewer
 
 Visualizing data from `MSHMicroMetR` is easily done using the
-`micrometViz` R shiny app. The app includes a leaflet map of all HOBO
+`microMetViz` R shiny app. The app includes a leaflet map of all HOBO
 deployments, color coded by habitat (blue = aquatic and orange =
 terrestrial), on the Deployment Map tab. The map is subsettable by years
 of deployment and habitat.
 
 ``` r
-MSHMicroMetR::micrometViz()
+MSHMicroMetR::microMetViz()
 ```
 
 <p align="center">

@@ -2,7 +2,7 @@
 % Please edit documentation in R/micrometViz.R
 \name{microMetViz}
 \alias{microMetViz}
-\title{R shiny app for visualizing MSHMIcroMetR package data}
+\title{R shiny app for visualizing MSHMicroMetR package data}
 \usage{
 microMetViz()
 }
