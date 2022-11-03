@@ -1,6 +1,6 @@
-#' R shiny app for visualizing daat contained within MSHMIcroMet package
+#' R shiny app for visualizing MSHMIcroMetR package data
 #'
-#' R shiny app for visualizing the location and metadata for HOBO deployments on Mount St. Helens and time series of temperature and relative humidity measurements collected during each deployment
+#' R shiny app for visualizing HOBO deployment location, metadata, and time series of temperature and relative humidity
 #'
 #' @examples
 #' # microMetViz()

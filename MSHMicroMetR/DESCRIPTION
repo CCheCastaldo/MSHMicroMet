@@ -1,4 +1,4 @@
-Package: MSHMicroMet
+Package: MSHMicroMetR
 Type: Package
 Title: US Forest Service Pacific Northwest Research Station Microscale Meteorology Data Collected on Mount St. Helens From 1997-2022
 Version: 1.0
@@ -13,7 +13,7 @@ Authors@R:
            role = "aut",
            email = "charlie.crisafulli@gmail.com"))
 Maintainer: Christian Che-Castaldo <cchristian.che-castaldo@stonybrook.edu>
-Description: Long-term microscale temperature and relative humidity measurements throughout the post-1980 Mount St. Helens eruption landscape collected by the US Forest Service Pacific Northwest Research Station.
+Description: Long-term microscale temperature and relative humidity measurements collected between 1997-2022 by the US Forest Service Pacific Northwest Research Station throughout the Mount St. Helens post 1980 eruption landscape.
 License: CC BY 4.0
 Encoding: UTF-8
 LazyData: TRUE
