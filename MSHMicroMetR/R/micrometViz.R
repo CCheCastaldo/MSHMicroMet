@@ -36,7 +36,7 @@ ui <- shinydashboard::dashboardPage(
       shinydashboard::tabItem(tabName = "header_table",
                               shiny::fluidPage(shiny::fluidRow(DT::dataTableOutput("thetable"))),
                               shiny::fluidRow(
-                                shiny::column(2, colorBox('#A1DBE2', "Aquatic deployment")),
+                                shiny::column(2, colorBox('#46A2FB', "Aquatic deployment")),
                                 shiny::column(2, colorBox('#FCA543', "Terrestrial deployment")),
                                 shiny::column(2, colorBox('#FB5446', "HOBO data lost")),
                                 shiny::column(2, colorBox('#E2EF07', "HOBO currently in situ")),
@@ -104,7 +104,7 @@ server <- function(input, output) {
                   selection = list(mode = 'single', selected = 1),
                   options = list(pageLength = 25, columnDefs = list(list(visible = FALSE, targets = c(10, 11, 12))))) %>%
       DT::formatDate(9:10, c('toLocaleString', 'toLocaleString')) %>%
-      DT::formatStyle('site_id', 'terrestrial', backgroundColor = DT::styleEqual(c(0, 1), c('#A1DBE2', '#FCA543'))) %>%
+      DT::formatStyle('site_id', 'terrestrial', backgroundColor = DT::styleEqual(c(0, 1), c('#46A2FB', '#FCA543'))) %>%
       DT::formatStyle('retrieval_datetime',
                       'status',
                       backgroundColor = DT::styleEqual(c("lost", "raw", "clean", "active"), c('#FB5446', '#E2A1DC', '#D4EFED', '#E2EF07')))
