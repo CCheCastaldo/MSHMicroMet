@@ -3,7 +3,7 @@ Mount St. Helens Micrometeorology Data for R
 
 <img align="right" src="MSHMicroMetR/logo/MSHMicroMetR_logo.png" width="300" />
 
-`MSHMicroMetR` is an R package for accessing and visualizing microscale
+`MSHMicroMetR` is an R package used to access and visualize microscale
 temperature and relative humidity measurements collected between
 1997-2022 by the US Forest Service Pacific Northwest Research Station
 throughout the Mount St. Helens post-1980 eruption landscape.
@@ -17,7 +17,7 @@ The package contains 2 data frames and 1 R Shiny app:
     St. Helens
 -   `microMetViz` - R shiny app for visualizing HOBO deployment
     location, metadata, and time series of temperature and relative
-    humidity
+    humidity measurements
 
 ### Installation
 
@@ -45,10 +45,10 @@ Foundation, Grant Numbers DEB-1257360 and DEB-0614538.
 ### R Shiny app
 
 Visualizing data from `MSHMicroMetR` is easily done using the
-`microMetViz` R shiny app. The app includes a leaflet map of all HOBO
-deployments, color coded by habitat (blue = aquatic and orange =
-terrestrial), on the Deployment Map tab. The map is subsettable by years
-of deployment and habitat.
+`microMetViz` R Shiny app. The app includes a customizable leaflet map
+of all HOBO deployments, color coded by habitat (blue = aquatic and
+orange = terrestrial), on the Deployment Map tab. The map is subsettable
+by years of deployment and habitat.
 
 ``` r
 MSHMicroMetR::microMetViz()
@@ -66,8 +66,8 @@ Deployment Table tab.
 </p>
 
 You can visualize the time series of temperature and relative humidity
-for any individual deployment by selecting it on the table and then
-clicking on the Time Series tab.
+measurements for any individual deployment by selecting it on the table
+and then clicking on the Time Series tab.
 
 <p align="center">
 <img src="MSHMicroMetR/logo/dygraph.png" width="100%" style="display: block; margin: auto;" />

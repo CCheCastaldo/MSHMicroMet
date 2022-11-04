@@ -9,7 +9,7 @@
 #'
 #' `MSHMicrometData` - data frame containing microscale temperature and relative humidity measurements from HOBO deployments on Mount St. Helens
 #'
-#' `microMetViz` - R shiny app for visualizing HOBO deployment location, metadata, and time series of temperature and relative humidity
+#' `microMetViz` - R Shiny app for visualizing HOBO deployment location, metadata, and time series of temperature and relative humidity measurements
 #'
 #' @section Author(s):
 #' Christian Che-Castaldo <christian.che-castaldo@stonybrook.edu>, Charlie M. Crisafulli <charlie.crisafulli@gmail.com>

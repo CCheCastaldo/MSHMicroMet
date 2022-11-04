@@ -32,7 +32,6 @@ A data frame with 823 rows and 17 variables:
 MSHMicrometHeader
 }
 \description{
-A data frame containing metadata for microscale temperature and relative humidity measurements collected on Mount St. Helens 
-between 1997-2022 by the US Forest Service Pacific Northwest Research Station
+A data frame containing metadata for microscale meteorology HOBO deployments on Mount St. Helens between 1997-2022 by the US Forest Service Pacific Northwest Research Station
 }
 \keyword{datasets}

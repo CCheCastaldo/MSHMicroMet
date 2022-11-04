@@ -9,13 +9,14 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <img align="right" src="MSHMicroMetR/logo/MSHMicroMetR_logo.png" width="300" />
 
-`MSHMicroMetR` is an R package for accessing and visualizing microscale temperature and relative humidity measurements collected between 1997-2022 by the US Forest Service Pacific Northwest Research Station throughout the Mount St. Helens post-1980 eruption landscape.
+`MSHMicroMetR` is an R package used to access and visualize microscale temperature and relative humidity measurements collected between 1997-2022 
+by the US Forest Service Pacific Northwest Research Station throughout the Mount St. Helens post-1980 eruption landscape.
 
 The package contains 2 data frames and 1 R Shiny app:
 
 * `MSHMicrometHeader` - data frame containing metadata for microscale meteorology HOBO deployments on Mount St. Helens
 * `MSHMicrometData` - data frame containing microscale temperature and relative humidity measurements from HOBO deployments on Mount St. Helens
-* `microMetViz` - R shiny app for visualizing HOBO deployment location, metadata, and time series of temperature and relative humidity 
+* `microMetViz` - R shiny app for visualizing HOBO deployment location, metadata, and time series of temperature and relative humidity measurements
 
 ### Installation
 
@@ -40,7 +41,7 @@ Financial support for this work was provided by the Pacific Northwest Research S
 
 ### R Shiny app
 
-Visualizing data from `MSHMicroMetR` is easily done using the `microMetViz` R shiny app. The app includes a leaflet map of all HOBO deployments, color coded by habitat (blue = aquatic and orange = terrestrial), on the Deployment Map tab. The map is subsettable by years of deployment and habitat.
+Visualizing data from `MSHMicroMetR` is easily done using the `microMetViz` R Shiny app. The app includes a customizable leaflet map of all HOBO deployments, color coded by habitat (blue = aquatic and orange = terrestrial), on the Deployment Map tab. The map is subsettable by years of deployment and habitat.
 
 ```{r, eval = FALSE}
 MSHMicroMetR::microMetViz()
@@ -60,7 +61,7 @@ knitr::include_graphics("MSHMicroMetR/logo/data_table.png")
 ```
 </p>
 
-You can visualize the time series of temperature and relative humidity for any individual deployment by selecting it on the table and then clicking on the Time Series tab.
+You can visualize the time series of temperature and relative humidity measurements for any individual deployment by selecting it on the table and then clicking on the Time Series tab.
 
 <p align="center">
 ```{r, echo = FALSE, out.width = "100%", fig.align = 'center'}

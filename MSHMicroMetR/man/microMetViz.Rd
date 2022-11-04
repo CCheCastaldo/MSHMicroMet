@@ -2,12 +2,12 @@
 % Please edit documentation in R/micrometViz.R
 \name{microMetViz}
 \alias{microMetViz}
-\title{R shiny app for visualizing MSHMicroMetR package data}
+\title{R Shiny app for visualizing MSHMicroMetR package data}
 \usage{
 microMetViz()
 }
 \description{
-R shiny app for visualizing HOBO deployment location, metadata, and time series of temperature and relative humidity
+R Shiny app for visualizing HOBO deployment location, metadata, and time series of temperature and relative humidity measurements
 }
 \examples{
 # microMetViz()
