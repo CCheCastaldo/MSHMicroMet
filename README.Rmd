@@ -26,7 +26,7 @@ install.packages('remotes')
 remotes::install_github("CCheCastaldo/MSHMicroMet", subdir = "MSHMicroMetR")
 ```
 
-### Supporting Information for these data
+### Supporting information for these data
 
 Link to Metadata_S1 file from Data Paper
 
