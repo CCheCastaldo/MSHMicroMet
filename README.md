@@ -39,7 +39,7 @@ Citation info and link to Data Paper in Ecology
 ### Acknowledgments
 
 Financial support for this work was provided by the Pacific Northwest
-Research Station, U.S. Forest Service and the U.S. National Science
+Research Station, US Forest Service and the U.S. National Science
 Foundation, Grant Numbers DEB-1257360 and DEB-0614538.
 
 ### R Shiny app
