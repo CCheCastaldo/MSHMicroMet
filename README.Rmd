@@ -1,5 +1,5 @@
 ---
-title: "Mount St. Helens Micrometeorology data for R"
+title: "Mount St. Helens Micrometeorology Data for R"
 output: github_document
 ---
 
@@ -19,7 +19,7 @@ The package contains 2 data frames and 1 R Shiny app:
 
 ### Installation
 
-You can install the latest version (1.0) from Github with:
+You can install the latest version from Github with:
 
 ```{r, eval = FALSE}
 install.packages('remotes')
@@ -38,7 +38,7 @@ Citation info and link to Data Paper in Ecology
 
 Financial support for this work was provided by the Pacific Northwest Research Station, U.S. Forest Service and the U.S. National Science Foundation, Grant Numbers DEB-1257360 and DEB-0614538.
 
-### R shiny viewer
+### R Shiny app
 
 Visualizing data from `MSHMicroMetR` is easily done using the `microMetViz` R shiny app. The app includes a leaflet map of all HOBO deployments, color coded by habitat (blue = aquatic and orange = terrestrial), on the Deployment Map tab. The map is subsettable by years of deployment and habitat.
 

@@ -1,4 +1,4 @@
-Mount St. Helens Micrometeorology data for R
+Mount St. Helens Micrometeorology Data for R
 ================
 
 <img align="right" src="MSHMicroMetR/logo/MSHMicroMetR_logo.png" width="300" />
@@ -21,7 +21,7 @@ The package contains 2 data frames and 1 R Shiny app:
 
 ### Installation
 
-You can install the latest version (1.0) from Github with:
+You can install the latest version from Github with:
 
 ``` r
 install.packages('remotes')
@@ -42,7 +42,7 @@ Financial support for this work was provided by the Pacific Northwest
 Research Station, U.S. Forest Service and the U.S. National Science
 Foundation, Grant Numbers DEB-1257360 and DEB-0614538.
 
-### R shiny viewer
+### R Shiny app
 
 Visualizing data from `MSHMicroMetR` is easily done using the
 `microMetViz` R shiny app. The app includes a leaflet map of all HOBO
