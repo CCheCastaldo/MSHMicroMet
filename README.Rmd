@@ -27,13 +27,13 @@ install.packages('remotes')
 remotes::install_github("CCheCastaldo/MSHMicroMet", subdir = "MSHMicroMetR")
 ```
 
-### Supporting information for these data
-
-Link to Metadata_S1 file from Data Paper
-
 ### How to cite these data
 
-Citation info and link to Data Paper in Ecology
+If using these data please cite the Che-Castaldo and Crisafulli data paper in <em>Ecology</em>.
+
+### Supporting information for these data
+
+Supporting information for these data can be found in the MetadataS1.pdf associated with this paper.
 
 ### Acknowledgments
 

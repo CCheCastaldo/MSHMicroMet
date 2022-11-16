@@ -10,14 +10,14 @@ throughout the Mount St. Helens post-1980 eruption landscape.
 
 The package contains 2 data frames and 1 R Shiny app:
 
--   `MSHMicrometHeader` - data frame containing metadata for microscale
-    meteorology HOBO deployments on Mount St. Helens
--   `MSHMicrometData` - data frame containing microscale temperature and
-    relative humidity measurements from HOBO deployments on Mount
-    St. Helens
--   `microMetViz` - R shiny app for visualizing HOBO deployment
-    location, metadata, and time series of temperature and relative
-    humidity measurements
+- `MSHMicrometHeader` - data frame containing metadata for microscale
+  meteorology HOBO deployments on Mount St. Helens
+- `MSHMicrometData` - data frame containing microscale temperature and
+  relative humidity measurements from HOBO deployments on Mount
+  St. Helens
+- `microMetViz` - R shiny app for visualizing HOBO deployment location,
+  metadata, and time series of temperature and relative humidity
+  measurements
 
 ### Installation
 
@@ -28,13 +28,15 @@ install.packages('remotes')
 remotes::install_github("CCheCastaldo/MSHMicroMet", subdir = "MSHMicroMetR")
 ```
 
-### Supporting information for these data
-
-Link to Metadata_S1 file from Data Paper
-
 ### How to cite these data
 
-Citation info and link to Data Paper in Ecology
+If using these data please cite the Che-Castaldo and Crisafulli data
+paper in <em>Ecology</em>.
+
+### Supporting information for these data
+
+Supporting information for these data can be found in the MetadataS1.pdf
+associated with this paper.
 
 ### Acknowledgments
 
