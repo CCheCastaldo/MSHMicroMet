@@ -1,6 +1,8 @@
 Mount St. Helens Micrometeorology Data for R
 ================
 
+[![DOI](https://zenodo.org/badge/561350602.svg)](https://zenodo.org/badge/latestdoi/561350602)
+
 <img align="right" src="MSHMicroMetR/logo/MSHMicroMetR_logo.png" width="300" />
 
 `MSHMicroMetR` is an R package used to access and visualize microscale
