@@ -4,14 +4,14 @@
 #'
 #' @format A data frame with 823 rows and 17 variables:
 #' \describe{
-#'   \item{survey_id}{unique identifer for each  HOBO sensor deployment}
+#'   \item{survey_id}{unique identifier for each  HOBO sensor deployment}
 #'   \item{site_id}{unique identifier for each site}
 #'   \item{site_description}{short description of the site location}
 #'   \item{zone}{disturbance zone where site is located}
 #'   \item{decimal_longitude}{the geographic longitude in decimal degrees of the HOBO deployment}
 #'   \item{decimal_latitude}{the geographic latitude in decimal degrees of the HOBO deployment}
 #'   \item{geodetic_datum}{the geodetic datum upon which the geographic coordinates are based}
-#'   \item{terrestrial}{boolean indicator whether HOBO is deloyed in a terrestrial (TRUE) or aquatic (FALSE) environment}
+#'   \item{terrestrial}{boolean indicator whether HOBO is deployed in a terrestrial (TRUE) or aquatic (FALSE) environment}
 #'   \item{year_deployed}{year HOBO sensor was deployed}
 #'   \item{year_retrieved}{year HOBO sensor was retrieved}
 #'   \item{serial}{HOBO serial number}
