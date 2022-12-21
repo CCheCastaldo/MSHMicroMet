@@ -31,11 +31,11 @@ remotes::install_github("CCheCastaldo/MSHMicroMet", subdir = "MSHMicroMetR")
 
 ### How to cite these data
 
-If using these data please cite the Che-Castaldo and Crisafulli data paper in <em>Ecology</em>.
+Che-Castaldo, C., and C.M. Crisafulli. 2022. "Long-Term Monitoring of Mount St. Helens Micrometeorology." *Ecology* e3950. https://doi.org/10.1002/ecy.3950
 
 ### Supporting information for these data
 
-Supporting information for these data can be found in the MetadataS1.pdf associated with this paper.
+Supporting information for these data can be found in the [MetadataS1.pdf](https://esajournals.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fecy.3950&file=ecy3950-sup-0001-DataS1.zip) associated with this paper.
 
 ### Acknowledgments
 
