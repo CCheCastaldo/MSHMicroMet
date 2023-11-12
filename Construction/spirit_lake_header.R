@@ -1,6 +1,6 @@
 # create pond data frames
 
-spirit_lake_header <-  read_excel("AccessMigration/SpiritLakeHeader.xlsx") %>%
+spirit_lake_header <-  read_excel("access_migration/SpiritLakeHeader.xlsx") %>%
   # rename key fields
   rename(interval_min = interval, survey_id_legacy = survey_ID, serial = sensor_ID, sensor = sensor_type, 
     raw = raw_data_files) %>%

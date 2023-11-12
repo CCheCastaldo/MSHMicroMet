@@ -38,81 +38,81 @@ import_hobo_3 <- function(source_file, survey_num, survey_type) {
 }
 
 lst <- list()
-lst[[1]] <- import_hobo_1("HoboCSV/MissingAccessDeployments/RDRCRK_2016.csv", 155, "1-terrestrial")
-lst[[2]] <- import_hobo_1("HoboCSV/MissingAccessDeployments/RDRUPL_2016.csv", 156, "1-terrestrial")
-lst[[3]] <- import_hobo_1("HoboCSV/MissingAccessDeployments/PPCAST_2016.csv", 160, "1-terrestrial")
-lst[[4]] <- import_hobo_1("HoboCSV/MissingAccessDeployments/WILSPU_2016.csv", 164, "1-terrestrial")
-lst[[5]] <- import_hobo_1("HoboCSV/MissingAccessDeployments/UPLSNE_2016.csv", 169, "1-terrestrial")
-lst[[6]] <- import_hobo_1("HoboCSV/MissingAccessDeployments/PMPWEB_2016_2017.csv", 174, "1-terrestrial")
-lst[[7]] <- import_hobo_1("HoboCSV/MissingAccessDeployments/UPLSNW_2017.csv", 175, "1-terrestrial")
-lst[[8]] <- import_hobo_1("HoboCSV/MissingAccessDeployments/PMPWEB_2017.csv", 176, "1-terrestrial")
-lst[[9]] <- import_hobo_1("HoboCSV/MissingAccessDeployments/PPWET1_2017.csv", 177, "1-terrestrial")
-lst[[10]] <- import_hobo_1("HoboCSV/MissingAccessDeployments/PPWET2_2017.csv", 178, "1-terrestrial")
-lst[[11]] <- import_hobo_1("HoboCSV/MissingAccessDeployments/RDRUPL_2017.csv", 179, "1-terrestrial")
-lst[[12]] <- import_hobo_1("HoboCSV/MissingAccessDeployments/FORUPL_2017.csv", 180, "1-terrestrial")
-lst[[13]] <- import_hobo_1("HoboCSV/MissingAccessDeployments/PMPGRN_2017.csv", 181, "1-terrestrial")
-lst[[14]] <- import_hobo_1("HoboCSV/MissingAccessDeployments/PPUPL1_2017.csv", 182, "1-terrestrial")
-lst[[15]] <- import_hobo_1("HoboCSV/MissingAccessDeployments/UPLSHS_2017.csv", 183, "1-terrestrial")
-lst[[16]] <- import_hobo_1("HoboCSV/MissingAccessDeployments/UPLSNE_2017.csv", 184, "1-terrestrial")
-lst[[17]] <- import_hobo_1("HoboCSV/MissingAccessDeployments/RDRCRK_2017.csv", 185, "1-terrestrial")
-lst[[18]] <- import_hobo_1("HoboCSV/MissingAccessDeployments/BSTCRK_2017.csv", 186, "1-terrestrial")
-lst[[19]] <- import_hobo_1("HoboCSV/MissingAccessDeployments/WILSPU_2017.csv", 187, "1-terrestrial")
-lst[[20]] <- import_hobo_1("HoboCSV/MissingAccessDeployments/PPUPL2_2017.csv", 188, "1-terrestrial")
-lst[[21]] <- import_hobo_1("HoboCSV/MissingAccessDeployments/FORCRK_2017.csv", 189, "1-terrestrial")
-lst[[22]] <- import_hobo_1("HoboCSV/MissingAccessDeployments/PPCAST_2017.csv", 190, "1-terrestrial")
-lst[[23]] <- import_hobo_1("HoboCSV/MissingAccessDeployments/WILSPR_2017.csv", 191, "1-terrestrial")
-lst[[24]] <- import_hobo_1("HoboCSV/MissingAccessDeployments/DUCKBE_top_2012_2013.csv", 68, "3-spiritlake")
-lst[[25]] <- import_hobo_1("HoboCSV/MissingAccessDeployments/DUCKBE_top_2017_2018.csv", 87, "3-spiritlake")
-lst[[26]] <- import_hobo_1("HoboCSV/MissingAccessDeployments/DUCKBE_bottom_2017_2018.csv", 88, "3-spiritlake")
-lst[[27]] <- import_hobo_1("HoboCSV/MissingAccessDeployments/SUNISL_top_2017_2018.csv", 91, "3-spiritlake")
-lst[[28]] <- import_hobo_1("HoboCSV/MissingAccessDeployments/SUNISL_middle_2017_2018.csv", 92, "3-spiritlake")
-lst[[29]] <- import_hobo_1("HoboCSV/MissingAccessDeployments/SUNISL_bottom_2017_2018.csv", 93, "3-spiritlake")
-lst[[30]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/CLRCRK_F_2012_2013.csv", 59, "2-stream")
-lst[[31]] <- import_hobo_3("HoboCSV/MissingAccessDeployments/CLRCRK_F_2012.csv", 61, "2-stream")
-lst[[32]] <- import_hobo_3("HoboCSV/MissingAccessDeployments/WILSPRE_H_2012.csv", 62, "2-stream")
-lst[[33]] <- import_hobo_3("HoboCSV/MissingAccessDeployments/GEOCRK_M_2012.csv", 63, "2-stream")
-lst[[34]] <- import_hobo_3("HoboCSV/MissingAccessDeployments/CMPCRK_M_2012.csv", 64, "2-stream")
-lst[[35]] <- import_hobo_3("HoboCSV/MissingAccessDeployments/CMPCRK_U_2012.csv", 65, "2-stream")
-lst[[36]] <- import_hobo_3("HoboCSV/MissingAccessDeployments/CMPCRKW_U_2012.csv", 66, "2-stream")
-lst[[37]] <- import_hobo_3("HoboCSV/MissingAccessDeployments/CMPCRKE_U_2012.csv", 67, "2-stream")
-lst[[38]] <- import_hobo_3("HoboCSV/MissingAccessDeployments/GEOCRKW_H_2012.csv", 68, "2-stream")
-lst[[39]] <- import_hobo_3("HoboCSV/MissingAccessDeployments/CMPCRK_C_2012.csv", 69, "2-stream")
-lst[[40]] <- import_hobo_3("HoboCSV/MissingAccessDeployments/GEOCRK_C_2012.csv", 70, "2-stream")
-lst[[41]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/RDRCRK_H_2012.csv", 71, "2-stream")
-lst[[42]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/FORCRK_T_2012.csv", 72, "2-stream")
-lst[[43]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/WILSPR_C2_2012.csv", 73, "2-stream")
-lst[[44]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/WILSPRE_C_2012.csv", 74, "2-stream")
-lst[[45]] <- import_hobo_3("HoboCSV/MissingAccessDeployments/CLRCRK_H_2012.csv", 75, "2-stream")
-lst[[46]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/WILSPR_M_2012.csv", 77, "2-stream")
-lst[[47]] <- import_hobo_3("HoboCSV/MissingAccessDeployments/GEOCRKE_H_2012.csv", 78, "2-stream")
-lst[[48]] <- import_hobo_3("HoboCSV/MissingAccessDeployments/DNYBRK_2012.csv", 79, "2-stream")
-lst[[49]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/BEAVCRK_L_2012_2013.csv", 80, "2-stream")
-lst[[50]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/RDRCRK_H_2012_2013.csv", 81, "2-stream")
-lst[[52]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/BEARCRK_2012_2013.csv", 82, "2-stream")
-lst[[53]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/FORCRK_T_2012_2013.csv", 83, "2-stream")
-lst[[54]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/CLRCRK_C1_2012_2013.csv", 86, "2-stream")
-lst[[55]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/WILSPRE_C_2012_2013.csv", 87, "2-stream")
-lst[[56]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/NORCRK_O_2012_2013.csv", 88, "2-stream")
-lst[[57]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/CMPCRKW_U_2012_2013.csv", 92, "2-stream")
-lst[[58]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/GEOCRKW_H_2012_2013.csv", 94, "2-stream")
-lst[[59]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/GEOCRK_C_2012_2013.csv", 95, "2-stream")
-lst[[60]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/CLRCRK_H_2012_2013.csv", 96, "2-stream")
-lst[[61]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/GEOCRKE_H_2012_2013.csv", 97, "2-stream")
-lst[[62]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/DNYBRK_2012_2013.csv", 98, "2-stream")
-lst[[63]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/GSECRK_2012_2013.csv", 99, "2-stream")
-lst[[64]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/FISHCRK_2012_2013.csv", 100, "2-stream")
-lst[[65]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/NORCRK_L_2012_2013.csv", 101, "2-stream")
-lst[[66]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/ALDCRK_2012_2013.csv", 103, "2-stream")
-lst[[51]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/CLRCRK_C1_2013.csv", 107, "2-stream")
-lst[[67]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/CMPCRK_L_2013.csv", 108, "2-stream")
-lst[[68]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/GSECRK_2013.csv", 109, "2-stream")
-lst[[69]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/CMPCRK_O_2013.csv", 110, "2-stream")
-lst[[70]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/GEOCRKE_H_2013.csv", 111, "2-stream")
-lst[[71]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/GEOCRK_M_2013.csv", 113, "2-stream")
-lst[[72]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/BEAVCRK_L_2013.csv", 114, "2-stream")
-lst[[73]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/BEARCRK_2013.csv", 115, "2-stream")
-lst[[74]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/FORCRK_T_2013.csv", 116, "2-stream")
-lst[[75]] <- import_hobo_2("HoboCSV/MissingAccessDeployments/RDRCRK_H_2013.csv", 117, "2-stream")
+lst[[1]] <- import_hobo_1("hobo_csv/missing_acccess_deployments/RDRCRK_2016.csv", 155, "1-terrestrial")
+lst[[2]] <- import_hobo_1("hobo_csv/missing_acccess_deployments/RDRUPL_2016.csv", 156, "1-terrestrial")
+lst[[3]] <- import_hobo_1("hobo_csv/missing_acccess_deployments/PPCAST_2016.csv", 160, "1-terrestrial")
+lst[[4]] <- import_hobo_1("hobo_csv/missing_acccess_deployments/WILSPU_2016.csv", 164, "1-terrestrial")
+lst[[5]] <- import_hobo_1("hobo_csv/missing_acccess_deployments/UPLSNE_2016.csv", 169, "1-terrestrial")
+lst[[6]] <- import_hobo_1("hobo_csv/missing_acccess_deployments/PMPWEB_2016_2017.csv", 174, "1-terrestrial")
+lst[[7]] <- import_hobo_1("hobo_csv/missing_acccess_deployments/UPLSNW_2017.csv", 175, "1-terrestrial")
+lst[[8]] <- import_hobo_1("hobo_csv/missing_acccess_deployments/PMPWEB_2017.csv", 176, "1-terrestrial")
+lst[[9]] <- import_hobo_1("hobo_csv/missing_acccess_deployments/PPWET1_2017.csv", 177, "1-terrestrial")
+lst[[10]] <- import_hobo_1("hobo_csv/missing_acccess_deployments/PPWET2_2017.csv", 178, "1-terrestrial")
+lst[[11]] <- import_hobo_1("hobo_csv/missing_acccess_deployments/RDRUPL_2017.csv", 179, "1-terrestrial")
+lst[[12]] <- import_hobo_1("hobo_csv/missing_acccess_deployments/FORUPL_2017.csv", 180, "1-terrestrial")
+lst[[13]] <- import_hobo_1("hobo_csv/missing_acccess_deployments/PMPGRN_2017.csv", 181, "1-terrestrial")
+lst[[14]] <- import_hobo_1("hobo_csv/missing_acccess_deployments/PPUPL1_2017.csv", 182, "1-terrestrial")
+lst[[15]] <- import_hobo_1("hobo_csv/missing_acccess_deployments/UPLSHS_2017.csv", 183, "1-terrestrial")
+lst[[16]] <- import_hobo_1("hobo_csv/missing_acccess_deployments/UPLSNE_2017.csv", 184, "1-terrestrial")
+lst[[17]] <- import_hobo_1("hobo_csv/missing_acccess_deployments/RDRCRK_2017.csv", 185, "1-terrestrial")
+lst[[18]] <- import_hobo_1("hobo_csv/missing_acccess_deployments/BSTCRK_2017.csv", 186, "1-terrestrial")
+lst[[19]] <- import_hobo_1("hobo_csv/missing_acccess_deployments/WILSPU_2017.csv", 187, "1-terrestrial")
+lst[[20]] <- import_hobo_1("hobo_csv/missing_acccess_deployments/PPUPL2_2017.csv", 188, "1-terrestrial")
+lst[[21]] <- import_hobo_1("hobo_csv/missing_acccess_deployments/FORCRK_2017.csv", 189, "1-terrestrial")
+lst[[22]] <- import_hobo_1("hobo_csv/missing_acccess_deployments/PPCAST_2017.csv", 190, "1-terrestrial")
+lst[[23]] <- import_hobo_1("hobo_csv/missing_acccess_deployments/WILSPR_2017.csv", 191, "1-terrestrial")
+lst[[24]] <- import_hobo_1("hobo_csv/missing_acccess_deployments/DUCKBE_top_2012_2013.csv", 68, "3-spiritlake")
+lst[[25]] <- import_hobo_1("hobo_csv/missing_acccess_deployments/DUCKBE_top_2017_2018.csv", 87, "3-spiritlake")
+lst[[26]] <- import_hobo_1("hobo_csv/missing_acccess_deployments/DUCKBE_bottom_2017_2018.csv", 88, "3-spiritlake")
+lst[[27]] <- import_hobo_1("hobo_csv/missing_acccess_deployments/SUNISL_top_2017_2018.csv", 91, "3-spiritlake")
+lst[[28]] <- import_hobo_1("hobo_csv/missing_acccess_deployments/SUNISL_middle_2017_2018.csv", 92, "3-spiritlake")
+lst[[29]] <- import_hobo_1("hobo_csv/missing_acccess_deployments/SUNISL_bottom_2017_2018.csv", 93, "3-spiritlake")
+lst[[30]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/CLRCRK_F_2012_2013.csv", 59, "2-stream")
+lst[[31]] <- import_hobo_3("hobo_csv/missing_acccess_deployments/CLRCRK_F_2012.csv", 61, "2-stream")
+lst[[32]] <- import_hobo_3("hobo_csv/missing_acccess_deployments/WILSPRE_H_2012.csv", 62, "2-stream")
+lst[[33]] <- import_hobo_3("hobo_csv/missing_acccess_deployments/GEOCRK_M_2012.csv", 63, "2-stream")
+lst[[34]] <- import_hobo_3("hobo_csv/missing_acccess_deployments/CMPCRK_M_2012.csv", 64, "2-stream")
+lst[[35]] <- import_hobo_3("hobo_csv/missing_acccess_deployments/CMPCRK_U_2012.csv", 65, "2-stream")
+lst[[36]] <- import_hobo_3("hobo_csv/missing_acccess_deployments/CMPCRKW_U_2012.csv", 66, "2-stream")
+lst[[37]] <- import_hobo_3("hobo_csv/missing_acccess_deployments/CMPCRKE_U_2012.csv", 67, "2-stream")
+lst[[38]] <- import_hobo_3("hobo_csv/missing_acccess_deployments/GEOCRKW_H_2012.csv", 68, "2-stream")
+lst[[39]] <- import_hobo_3("hobo_csv/missing_acccess_deployments/CMPCRK_C_2012.csv", 69, "2-stream")
+lst[[40]] <- import_hobo_3("hobo_csv/missing_acccess_deployments/GEOCRK_C_2012.csv", 70, "2-stream")
+lst[[41]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/RDRCRK_H_2012.csv", 71, "2-stream")
+lst[[42]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/FORCRK_T_2012.csv", 72, "2-stream")
+lst[[43]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/WILSPR_C2_2012.csv", 73, "2-stream")
+lst[[44]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/WILSPRE_C_2012.csv", 74, "2-stream")
+lst[[45]] <- import_hobo_3("hobo_csv/missing_acccess_deployments/CLRCRK_H_2012.csv", 75, "2-stream")
+lst[[46]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/WILSPR_M_2012.csv", 77, "2-stream")
+lst[[47]] <- import_hobo_3("hobo_csv/missing_acccess_deployments/GEOCRKE_H_2012.csv", 78, "2-stream")
+lst[[48]] <- import_hobo_3("hobo_csv/missing_acccess_deployments/DNYBRK_2012.csv", 79, "2-stream")
+lst[[49]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/BEAVCRK_L_2012_2013.csv", 80, "2-stream")
+lst[[50]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/RDRCRK_H_2012_2013.csv", 81, "2-stream")
+lst[[52]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/BEARCRK_2012_2013.csv", 82, "2-stream")
+lst[[53]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/FORCRK_T_2012_2013.csv", 83, "2-stream")
+lst[[54]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/CLRCRK_C1_2012_2013.csv", 86, "2-stream")
+lst[[55]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/WILSPRE_C_2012_2013.csv", 87, "2-stream")
+lst[[56]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/NORCRK_O_2012_2013.csv", 88, "2-stream")
+lst[[57]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/CMPCRKW_U_2012_2013.csv", 92, "2-stream")
+lst[[58]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/GEOCRKW_H_2012_2013.csv", 94, "2-stream")
+lst[[59]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/GEOCRK_C_2012_2013.csv", 95, "2-stream")
+lst[[60]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/CLRCRK_H_2012_2013.csv", 96, "2-stream")
+lst[[61]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/GEOCRKE_H_2012_2013.csv", 97, "2-stream")
+lst[[62]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/DNYBRK_2012_2013.csv", 98, "2-stream")
+lst[[63]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/GSECRK_2012_2013.csv", 99, "2-stream")
+lst[[64]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/FISHCRK_2012_2013.csv", 100, "2-stream")
+lst[[65]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/NORCRK_L_2012_2013.csv", 101, "2-stream")
+lst[[66]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/ALDCRK_2012_2013.csv", 103, "2-stream")
+lst[[51]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/CLRCRK_C1_2013.csv", 107, "2-stream")
+lst[[67]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/CMPCRK_L_2013.csv", 108, "2-stream")
+lst[[68]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/GSECRK_2013.csv", 109, "2-stream")
+lst[[69]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/CMPCRK_O_2013.csv", 110, "2-stream")
+lst[[70]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/GEOCRKE_H_2013.csv", 111, "2-stream")
+lst[[71]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/GEOCRK_M_2013.csv", 113, "2-stream")
+lst[[72]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/BEAVCRK_L_2013.csv", 114, "2-stream")
+lst[[73]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/BEARCRK_2013.csv", 115, "2-stream")
+lst[[74]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/FORCRK_T_2013.csv", 116, "2-stream")
+lst[[75]] <- import_hobo_2("hobo_csv/missing_acccess_deployments/RDRCRK_H_2013.csv", 117, "2-stream")
 
 #------------------------------------------------------------------------------------------
 # join each data source with header 
@@ -123,7 +123,7 @@ added_hobo_df <- do.call(what = rbind, args = lst) %>%
     by = c("survey_id_legacy", "survey")) %>%
   dplyr::select(survey_id_legacy, survey_id, survey, status, datetime, temperature, relative_humidity)
 
-debris_avalanche_survey <- read_excel("AccessMigration/PondTemperatureData.xlsx") %>%
+debris_avalanche_survey <- read_excel("access_migration/PondTemperatureData.xlsx") %>%
   # rename key fields
   rename(survey_id_legacy = survey_ID, datetime = date_time,  temperature = temp_C) %>%
   mutate(relative_humidity = NA) %>%
@@ -133,7 +133,7 @@ debris_avalanche_survey <- read_excel("AccessMigration/PondTemperatureData.xlsx"
     by = "survey_id_legacy") %>%
   dplyr::select(survey_id_legacy, survey_id, survey, status, datetime, temperature, relative_humidity)
 
-spirit_lake_survey <- read_excel("AccessMigration/SpiritLakeData.xlsx", 
+spirit_lake_survey <- read_excel("access_migration/SpiritLakeData.xlsx", 
   col_types = c("numeric", "numeric", "text", "date", "date", "numeric", "numeric", "numeric", "date", "numeric")) %>%
   # rename key fields
   rename(survey_id_legacy = survey_ID, temperature = temp_C) %>%
@@ -146,7 +146,7 @@ spirit_lake_survey <- read_excel("AccessMigration/SpiritLakeData.xlsx",
     by = "survey_id_legacy") %>%
   dplyr::select(survey_id_legacy, survey_id, survey, status, datetime, temperature, relative_humidity)
 
-stream_tributary_survey <- read_excel("AccessMigration/StreamTributaryData.xlsx") %>%
+stream_tributary_survey <- read_excel("access_migration/StreamTributaryData.xlsx") %>%
   # rename key fields
   rename(survey_id_legacy = survey_ID, temperature = tempC) %>%
   mutate(relative_humidity = NA) %>%
@@ -156,8 +156,8 @@ stream_tributary_survey <- read_excel("AccessMigration/StreamTributaryData.xlsx"
     by = "survey_id_legacy") %>%
   dplyr::select(survey_id_legacy, survey_id, survey, status, datetime, temperature, relative_humidity)
 
-terrestrial_survey <- rbind(read_excel("AccessMigration/TerrestrialData1.xlsx"), 
-  read_excel("AccessMigration/TerrestrialData2.xlsx")) %>%
+terrestrial_survey <- rbind(read_excel("access_migration/TerrestrialData1.xlsx"), 
+  read_excel("access_migration/TerrestrialData2.xlsx")) %>%
   # rename key fields
   rename(survey_id_legacy = survey_ID, datetime = date_time, temperature = temp_c, relative_humidity = rh) %>%
   dplyr::select(survey_id_legacy, datetime, temperature, relative_humidity) %>%

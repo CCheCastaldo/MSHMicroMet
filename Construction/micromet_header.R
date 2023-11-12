@@ -1,6 +1,6 @@
 # combine access migration headers
 
-serial_sensor_part_onset <-  read_excel("AccessMigration/SerialSensorPart.xlsx", col_types = c("text", "text")) %>%
+serial_sensor_part_onset <-  read_excel("access_migration/SerialSensorPart.xlsx", col_types = c("text", "text")) %>%
   mutate(sensor_part = str_trim(sensor_part, side = "both")) %>%
   # this serial number was incorrectly identified by onset as H01-001-01 when it actually is H08-032-08
   mutate(sensor_part = replace(sensor_part, serial=="499973", "H08-032-08"))

@@ -1,5 +1,5 @@
 pond_aquatic_locations_df <-
-  readRDS(file = "SpatialObjects/ponds_smooth_sf.rds") %>%
+  readRDS(file = "spatial_objects/ponds_smooth_sf.rds") %>%
   st_transform(32610) %>%
   rename(site_id = pond_id) %>%
   mutate(point = st_centroid(geometry_smooth)) %>%
@@ -118,7 +118,7 @@ pond_aquatic_locations_df <-
   dplyr::select(site_id, terrestrial, site_description, zone, easting, northing)
 
 pond_terrestrial_locations_df  <-
-  readRDS(file = "SpatialObjects/ponds_rebar_sf.rds") %>%
+  readRDS(file = "spatial_objects/ponds_rebar_sf.rds") %>%
   st_transform(32610) %>%
   rename(site_id = pond_id) %>%
   dplyr::filter(site_id %in% c("H25", "M10", "H10", "M54")) %>%

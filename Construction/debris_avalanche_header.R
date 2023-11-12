@@ -1,6 +1,6 @@
 # create debris_avalanche_header frame
 
-debris_avalanche_header <- read_excel("AccessMigration/PondTemperatureHeader.xlsx") %>%
+debris_avalanche_header <- read_excel("access_migration/PondTemperatureHeader.xlsx") %>%
   # rename key fields
   rename(survey_id_legacy = survey_ID, site_id = pond_ID, comment = notes, raw = "raw data file") %>%
   # if time missing on retrieval date then set it to 12 AM to be safe

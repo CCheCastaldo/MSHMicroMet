@@ -1,4 +1,4 @@
-spirit_lake_locations_df <- read_excel("AccessMigration/SpiritLakeLocations.xlsx") %>%
+spirit_lake_locations_df <- read_excel("access_migration/SpiritLakeLocations.xlsx") %>%
   mutate(terrestrial = FALSE, zone = "Spirit Lake", site_description = NA) %>%
   mutate(site_description = replace(site_description, site_id == 'SUNISL', 'Sunken Island')) %>%
   mutate(site_description = replace(site_description, site_id == 'DUCKBE', 'Duck Bay East')) %>%

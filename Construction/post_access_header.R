@@ -1,6 +1,6 @@
 # read in post access header
 
-post_access_header <- read.csv(file = "AddedDeployments/post_access_header.csv", stringsAsFactors = F, header = T) %>%
+post_access_header <- read.csv(file = "added_deployments/post_access_header.csv", stringsAsFactors = F, header = T) %>%
   # convert character datetimes to POSIXct
   mutate(deployment_datetime = mdy_hm(deployment_datetime)) %>%
   mutate(retrieval_datetime = mdy_hm(retrieval_datetime)) %>%

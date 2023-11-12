@@ -1,6 +1,6 @@
 # create stream_tributary_header frame
 
-stream_tributary_header <- read_excel("AccessMigration/StreamTributaryHeader.xlsx") %>%
+stream_tributary_header <- read_excel("access_migration/StreamTributaryHeader.xlsx") %>%
   # rename key fields
   rename(survey_id_legacy = survey_ID, comment = Notes, raw = "raw files", interval_min = interval) %>%
   # if time missing on retrieval date then set it to 12 AM to be safe

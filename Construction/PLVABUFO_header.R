@@ -2,7 +2,7 @@
 # missing access deployments were manually checked and are all clean: CCC 8/6/22
 # changed raw to clean in header .csv file: CCC 8/6/22
 
-header_PLVABUFO_locations_df <- st_as_sf(read.csv(file = "AddedDeployments/PLVABUFO_header.csv", 
+header_PLVABUFO_locations_df <- st_as_sf(read.csv(file = "added_deployments/PLVABUFO_header.csv", 
     stringsAsFactors = F, header = T) %>% dplyr::filter(!is.na(latitude)) %>%
     dplyr::select(site_id, year_deployed, latitude, longitude), 
   coords = c("longitude", "latitude"), crs = st_crs(4326)) %>%
@@ -13,7 +13,7 @@ header_PLVABUFO_locations_df <- st_as_sf(read.csv(file = "AddedDeployments/PLVAB
   
 # read in PLVA BUFO header 
 
-PLVABUFO_header <- read.csv(file = "AddedDeployments/PLVABUFO_header.csv", stringsAsFactors = F, header = T) %>%
+PLVABUFO_header <- read.csv(file = "added_deployments/PLVABUFO_header.csv", stringsAsFactors = F, header = T) %>%
   # convert character datetimes to POSIXct
   mutate(deployment_datetime = mdy_hm(deployment_datetime)) %>%
   mutate(retrieval_datetime = mdy_hm(retrieval_datetime)) %>%

@@ -2,7 +2,7 @@
 # Pumice Plain coordinates are in WGS84 UTM 10N
 
 terrestrial_locations_pp_df <-
-  read_excel("AccessMigration/TerrestrialLocations.xlsx") %>%
+  read_excel("access_migration/TerrestrialLocations.xlsx") %>%
   dplyr::filter(!(
     site_id %in% c("REFFOR", "REFCUT", "TEPFOR", "TEPCUT", "BLDFOR", "BLDCUT")
   )) %>%
@@ -37,7 +37,7 @@ terrestrial_locations_pp_sf <-
 #--------------------------------------------------------------------------------------------------------------------------------------
 # Blowdown and reference coordinates are in NAD27 UTM10N
 
-terrestrial_locations_bd_df <- st_as_sf(read_excel("AccessMigration/TerrestrialLocations.xlsx") %>%
+terrestrial_locations_bd_df <- st_as_sf(read_excel("access_migration/TerrestrialLocations.xlsx") %>%
   dplyr::filter(site_id %in% c("REFFOR", "REFCUT", "TEPFOR", "TEPCUT", "BLDFOR", "BLDCUT")),
     coords = c("utm_E", "utm_N"), crs = st_crs(26710)) %>%
   st_transform(32610) %>%

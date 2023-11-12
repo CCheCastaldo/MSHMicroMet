@@ -1,4 +1,4 @@
-pathName <- "HoboCSV/PLVABUFOdeployments/"
+pathName <- "hobo_csv/plva_bufo_deployments/"
 files <- list.files(path = pathName)
 lst <- list()
 

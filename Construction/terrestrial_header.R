@@ -1,6 +1,6 @@
 # create terrestrial_header frame
 
-terrestrial_header <- read_excel("AccessMigration/TerrestrialHeader.xlsx") %>%
+terrestrial_header <- read_excel("access_migration/TerrestrialHeader.xlsx") %>%
   # rename key fields
   rename(survey_id_legacy = survey_ID, site_id = site, comment = notes, sensor = sensor_type, 
     height = height_cm, serial = serial_no, raw = raw_data) %>%

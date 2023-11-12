@@ -1,6 +1,6 @@
 # read in post access data
 
-pathName <- "HoboCSV/PostAccessDeployments/"
+pathName <- "hobo_csv/post_access_deployments/"
 files <- list.files(path = pathName)
 lst <- list()
 
